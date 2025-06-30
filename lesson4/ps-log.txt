@@ -1,0 +1,439 @@
+Script started on 2025-06-29 18:52:35+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="156" LINES="75"]
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hp[4mp[24m[4mp[24m[38;2;153;153;153ms -u $USER[39m[10D[4mp[39m[4ms[24m[24m[36mp[24m[36ms[39m[36mp[36ms[36m [39m[36mp[36ms[39m[39m [39ma[39m [39m [39m [39m [39m [39m [39m [38;2;153;153;153mux[39m[39mu[39mx[?1l>[?2004l
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  23988 14732 ?        Ss   18:25   0:01 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    18:25   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    18:25   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           5  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-rcu_gp]
+root           6  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-sync_wq]
+root           7  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/0:0-events]
+root          11  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    18:25   0:00 [rcu_tasks_kthread]
+root          15  0.0  0.0      0     0 ?        I    18:25   0:00 [rcu_tasks_rude_kthread]
+root          16  0.0  0.0      0     0 ?        I    18:25   0:00 [rcu_tasks_trace_kthread]
+root          17  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/0]
+root          18  0.0  0.0      0     0 ?        I    18:25   0:01 [rcu_preempt]
+root          19  0.0  0.0      0     0 ?        S    18:25   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          20  0.0  0.0      0     0 ?        S    18:25   0:00 [rcu_exp_gp_kthread_worker]
+root          21  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/0]
+root          22  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/0]
+root          23  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/0]
+root          24  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/1]
+root          25  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/1]
+root          26  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/1]
+root          27  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/1]
+root          29  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/1:0H-kblockd]
+root          30  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/2]
+root          31  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/2]
+root          32  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/2]
+root          33  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/2]
+root          34  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/2:0-events]
+root          35  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/2:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/3]
+root          37  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/3]
+root          38  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/3]
+root          39  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/3]
+root          41  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/3:0H-events_highpri]
+root          42  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/4]
+root          43  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/4]
+root          44  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/4]
+root          45  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/4]
+root          47  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/4:0H-events_highpri]
+root          48  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/5]
+root          49  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/5]
+root          50  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/5]
+root          51  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/5]
+root          52  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/5:0-mm_percpu_wq]
+root          53  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/5:0H-events_highpri]
+root          54  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/6]
+root          55  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/6]
+root          56  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/6]
+root          57  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/6]
+root          59  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/6:0H-events_highpri]
+root          60  0.0  0.0      0     0 ?        S    18:25   0:00 [cpuhp/7]
+root          61  0.0  0.0      0     0 ?        S    18:25   0:00 [idle_inject/7]
+root          62  0.0  0.0      0     0 ?        S    18:25   0:00 [migration/7]
+root          63  0.0  0.0      0     0 ?        S    18:25   0:00 [ksoftirqd/7]
+root          70  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/u32:4-events_unbound]
+root          72  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/u32:6-events_unbound]
+root          73  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/u32:7-events_unbound]
+root          74  0.0  0.0      0     0 ?        S    18:25   0:00 [kdevtmpfs]
+root          75  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-inet_frag_wq]
+root          76  0.0  0.0      0     0 ?        S    18:25   0:00 [kauditd]
+root          77  0.0  0.0      0     0 ?        S    18:25   0:00 [khungtaskd]
+root          78  0.0  0.0      0     0 ?        S    18:25   0:00 [oom_reaper]
+root          79  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-writeback]
+root          80  0.0  0.0      0     0 ?        S    18:25   0:00 [kcompactd0]
+root          81  0.0  0.0      0     0 ?        SN   18:25   0:00 [ksmd]
+root          82  0.0  0.0      0     0 ?        SN   18:25   0:00 [khugepaged]
+root          83  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-kintegrityd]
+root          84  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-kblockd]
+root          85  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-blkcg_punt_bio]
+root          86  0.0  0.0      0     0 ?        S    18:25   0:00 [irq/9-acpi]
+root          88  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/7:1-events]
+root          90  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-tpm_dev_wq]
+root          91  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-edac-poller]
+root          92  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-devfreq_wq]
+root          93  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/0:1H-kblockd]
+root          94  0.0  0.0      0     0 ?        S    18:25   0:00 [kswapd0]
+root         102  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-kthrotld]
+root         107  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-acpi_thermal_pm]
+root         109  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/1:1-events]
+root         110  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-mld]
+root         111  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/7:1H-kblockd]
+root         112  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-ipv6_addrconf]
+root         117  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-kstrp]
+root         121  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/u33:0-ttm]
+root         183  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/2:1H-kblockd]
+root         184  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/3:1H-kblockd]
+root         216  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/5:1H-kblockd]
+root         225  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/1:1H-kblockd]
+root         226  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/4:1H-kblockd]
+root         243  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/6:1H-kblockd]
+root         249  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-cryptd]
+root         284  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-ata_sff]
+root         291  0.0  0.0      0     0 ?        S    18:25   0:00 [scsi_eh_0]
+root         292  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-scsi_tmf_0]
+root         293  0.0  0.0      0     0 ?        S    18:25   0:00 [scsi_eh_1]
+root         295  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-scsi_tmf_1]
+root         297  0.0  0.0      0     0 ?        S    18:25   0:00 [scsi_eh_2]
+root         298  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-scsi_tmf_2]
+root         309  0.0  0.0      0     0 ?        S    18:25   0:00 [irq/18-vmwgfx]
+root         310  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-ttm]
+root         312  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/4:2-events]
+root         365  0.0  0.0      0     0 ?        S    18:25   0:00 [jbd2/sda1-8]
+root         366  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-ext4-rsv-conversion]
+root         427  0.0  0.1  51140 15872 ?        Ss   18:25   0:00 /usr/lib/systemd/systemd-journald
+root         470  0.0  0.1  36156 10220 ?        Ss   18:25   0:00 /usr/lib/systemd/systemd-udevd
+root         477  0.0  0.0      0     0 ?        S    18:25   0:00 [psimon]
+root         543  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-iprt-VBoxWQueue]
+root         585  0.0  0.0   8380  4884 ?        Ss   18:25   0:00 /usr/sbin/haveged --Foreground --verbose=1
+root         594  0.0  0.0 309416  6992 ?        Ssl  18:25   0:00 /usr/libexec/accounts-daemon
+message+     596  0.0  0.0  10208  6356 ?        Ss   18:25   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activatio
+polkitd      598  0.0  0.1 382568  9576 ?        Ssl  18:25   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         599  0.0  0.1  18992  8964 ?        Ss   18:25   0:00 /usr/lib/systemd/systemd-logind
+root         778  0.0  0.1 390912 11700 ?        Ssl  18:25   0:00 /usr/sbin/ModemManager
+root         781  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-rpciod]
+root         782  0.0  0.0      0     0 ?        I<   18:25   0:00 [kworker/R-xprtiod]
+root         791  0.0  0.0   6864  2696 ?        Ss   18:25   0:00 /usr/sbin/cron -f
+root         807  0.0  0.0 352932  2288 ?        Sl   18:25   0:01 /usr/bin/VBoxDRMClient
+root         810  0.0  0.0 291728  3260 ?        Sl   18:25   0:00 /usr/sbin/VBoxService
+root         872  0.0  0.0      0     0 ?        I    18:25   0:00 [kworker/3:2-events]
+root         899  0.0  0.2 337312 19032 ?        Ssl  18:25   0:00 /usr/sbin/NetworkManager --no-daemon
+root         992  0.0  0.0 380968  7000 ?        SLsl 18:26   0:00 /usr/sbin/lightdm
+root         999  0.0  0.0  12168  8016 ?        Ss   18:26   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+root        1006  0.0  0.0      0     0 ?        I<   18:26   0:00 [kworker/u33:2-ttm]
+root        1008  2.9  2.4 557076 198620 tty7    Ssl+ 18:26   0:47 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novts
+root        1009  0.0  0.0   8160  2376 tty1     Ss+  18:26   0:00 /sbin/agetty -o -- \u --noreset --noclear - linux
+root        1026  0.0  0.0      0     0 ?        S    18:26   0:00 [psimon]
+rtkit       1059  0.0  0.0  21472  3132 ?        SNsl 18:26   0:00 /usr/libexec/rtkit-daemon
+root        1129  0.0  0.1 171036  8688 ?        Sl   18:26   0:00 lightdm --session-child 13 24
+griwa       1141  0.0  0.1  22864 12648 ?        Ss   18:26   0:00 /usr/lib/systemd/systemd --user
+griwa       1143  0.0  0.0  23444  3760 ?        S    18:26   0:00 (sd-pam)
+griwa       1163  0.0  0.0   9320  5688 ?        Ss   18:26   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activati
+griwa       1164  0.0  0.1 102864 13156 ?        S<sl 18:26   0:00 /usr/bin/pipewire
+griwa       1166  0.0  0.0  84744  5092 ?        Ssl  18:26   0:00 /usr/bin/pipewire -c filter-chain.conf
+griwa       1167  0.0  0.2 407048 18752 ?        S<sl 18:26   0:00 /usr/bin/wireplumber
+griwa       1168  0.0  0.1 100656  9604 ?        S<sl 18:26   0:00 /usr/bin/pipewire-pulse
+griwa       1169  0.0  0.1 183372 10332 ?        SLsl 18:26   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-director
+griwa       1170  0.0  0.0   7224  3464 ?        Ss   18:26   0:00 /usr/bin/mpris-proxy
+griwa       1192  0.0  0.4 349084 35572 ?        Ssl  18:26   0:00 xfce4-session
+griwa       1253  0.0  0.0  16688  1536 ?        S    18:26   0:00 /usr/bin/VBoxClient --clipboard
+griwa       1255  0.0  0.0 215516  4012 ?        Sl   18:26   0:00 /usr/bin/VBoxClient --clipboard
+griwa       1261  0.0  0.0  16688  1676 ?        S    18:26   0:00 /usr/bin/VBoxClient --seamless
+griwa       1263  0.1  0.0 214844  3004 ?        Sl   18:26   0:02 /usr/bin/VBoxClient --seamless
+griwa       1269  0.0  0.0  16688  1676 ?        S    18:26   0:00 /usr/bin/VBoxClient --draganddrop
+griwa       1271  0.2  0.0 215360  3072 ?        Sl   18:26   0:04 /usr/bin/VBoxClient --draganddrop
+griwa       1285  0.0  0.0  16688  1664 ?        S    18:26   0:00 /usr/bin/VBoxClient --vmsvga-session
+griwa       1287  0.0  0.0 215032  3400 ?        Sl   18:26   0:00 /usr/bin/VBoxClient --vmsvga-session
+griwa       1303  0.0  0.0 381164  7312 ?        Ssl  18:26   0:00 /usr/libexec/at-spi-bus-launcher
+griwa       1310  0.0  0.0   8724  4608 ?        S    18:26   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofor
+griwa       1321  0.0  0.0 168744  7640 ?        Sl   18:26   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+griwa       1328  0.0  0.0  10928  1936 ?        Ss   18:26   0:00 /usr/bin/ssh-agent -s
+griwa       1337  0.0  0.0 155520  3720 ?        SLsl 18:26   0:00 /usr/bin/gpg-agent --supervised
+griwa       1340  0.6  1.6 1779972 132724 ?      Sl   18:26   0:11 xfwm4
+griwa       1344  0.0  0.1 313212  8156 ?        Ssl  18:26   0:00 /usr/libexec/gvfsd
+griwa       1350  0.0  0.0 398584  6968 ?        Sl   18:26   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+griwa       1379  0.0  0.3 276420 26788 ?        Sl   18:26   0:00 xfsettingsd
+griwa       1386  0.0  0.0 165228  5564 ?        Ssl  18:26   0:00 /usr/libexec/dconf-service
+griwa       1387  0.1  0.5 509580 47336 ?        Sl   18:26   0:01 xfce4-panel
+griwa       1395  0.0  0.6 508732 48996 ?        Sl   18:26   0:01 Thunar --daemon
+griwa       1401  0.1  1.0 593424 85564 ?        Sl   18:26   0:02 xfdesktop
+griwa       1405  0.0  0.5 429604 42804 ?        Sl   18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1409  0.1  1.1 266208 89600 ?        Sl   18:26   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1410  0.0  0.3 347000 25576 ?        Sl   18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1411  0.1  0.3 274976 29148 ?        Sl   18:26   0:02 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1412  0.0  0.4 360440 40288 ?        Sl   18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1413  0.0  0.4 426636 38012 ?        Sl   18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1414  0.0  0.4 287524 38512 ?        Sl   18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1416  0.0  0.4 426900 37892 ?        Sl   18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86_64-linux-gnu/xfce4/panel/p
+griwa       1434  0.0  0.4 210444 35116 ?        Sl   18:26   0:00 xfce4-screensaver
+griwa       1436  0.0  0.1 922608  8208 ?        Sl   18:26   0:00 xiccd
+griwa       1441  0.0  0.0 316928  6544 ?        Sl   18:26   0:00 /usr/libexec/geoclue-2.0/demos/agent
+griwa       1442  0.0  0.2 342440 20040 ?        Ssl  18:26   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+root        1444  0.0  0.1 319024 10204 ?        Ssl  18:26   0:00 /usr/libexec/upowerd
+griwa       1447  0.0  0.2 332324 17668 ?        Sl   18:26   0:00 xfce4-power-manager
+colord      1472  0.0  0.1 316100 13956 ?        Ssl  18:26   0:00 /usr/libexec/colord
+griwa       1473  0.0  0.4  66196 40556 ?        S    18:26   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+griwa       1477  0.0  0.7 530112 60104 ?        Sl   18:26   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+griwa       1489  0.0  0.5 588132 44316 ?        Sl   18:26   0:00 nm-applet
+griwa       1500  0.0  0.2 191816 16712 ?        Sl   18:26   0:00 /usr/libexec/polkit-mate-authentication-agent-1
+griwa       1542  0.0  0.0  12424  1680 ?        Ssl  18:26   0:00 xcape -e Super_L Control_L Escape
+griwa       1605  0.0  0.1 391504 11072 ?        Ssl  18:26   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1610  0.0  0.1 404520 13724 ?        Ssl  18:26   0:00 /usr/libexec/udisks2/udisksd
+griwa       1631  0.0  0.0 308040  6500 ?        Ssl  18:26   0:00 /usr/libexec/gvfs-goa-volume-monitor
+griwa       1638  0.0  0.1 390232  8792 ?        Ssl  18:26   0:00 /usr/libexec/gvfs-afc-volume-monitor
+griwa       1644  0.0  0.0 308116  6912 ?        Ssl  18:26   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+griwa       1649  0.0  0.0 309068  7188 ?        Ssl  18:26   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+griwa       1650  0.0  0.2 378700 18084 ?        Ssl  18:26   0:00 /usr/libexec/bluetooth/obexd
+griwa       1679  0.0  0.0 169184  6816 ?        Ssl  18:26   0:00 /usr/libexec/gvfsd-metadata
+griwa       1689  0.0  0.1 534664  9116 ?        Sl   18:26   0:00 /usr/libexec/gvfsd-trash --spawner :1.24 /org/gtk/gvfs/exec_spaw/0
+griwa       1719  0.4  0.7 725744 62628 ?        Sl   18:26   0:07 /usr/bin/qterminal
+griwa       1722  0.0  0.2 557252 19900 ?        Ssl  18:26   0:00 /usr/libexec/xdg-desktop-portal
+griwa       1727  0.0  0.0 308956  6616 ?        Ssl  18:26   0:00 /usr/libexec/xdg-permission-store
+griwa       1735  0.0  0.0 614880  7180 ?        Ssl  18:26   0:00 /usr/libexec/xdg-document-portal
+root        1741  0.0  0.0   2584  1692 ?        Ss   18:26   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/100
+griwa       1748  0.0  0.5 856792 44732 ?        Ssl  18:26   0:00 /usr/libexec/xdg-desktop-portal-gtk
+griwa       1756  0.0  0.0  13588  6796 pts/0    Ss   18:26   0:00 /usr/bin/zsh
+root        2101  0.0  0.1  20924  8196 pts/0    S+   18:26   0:00 sudo su
+root        2121  0.0  0.0  20924  2384 pts/1    Ss   18:26   0:00 sudo su
+root        2122  0.0  0.0  11020  4988 pts/1    S    18:26   0:00 su
+root        2124  0.1  0.0  14076  7760 pts/1    S    18:26   0:01 zsh
+griwa       6201  3.7  4.4 34303612 361784 ?     SLl  18:34   0:40 /opt/google/chrome/chrome
+griwa       6205  0.0  0.0   5848  1720 ?        S    18:34   0:00 cat
+griwa       6206  0.0  0.0   5848  1868 ?        S    18:34   0:00 cat
+griwa       6216  0.0  0.0 33576448 3688 ?       Sl   18:34   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype
+griwa       6218  0.0  0.0 33568236 3376 ?       Sl   18:34   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=
+griwa       6224  0.0  0.8 33947180 66016 ?      S    18:34   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=6216 -
+griwa       6225  0.0  0.8 33947172 66136 ?      S    18:34   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=6216 --enable-crash-report
+griwa       6227  0.0  0.2 33947196 19800 ?      S    18:34   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=6216 --enable-crash-report
+griwa       6254  0.6  1.9 34320036 160124 ?     Sl   18:34   0:06 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=6216 --enable-crash-r
+griwa       6256  0.3  1.4 33976100 120800 ?     Sl   18:34   0:03 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService 
+griwa       6266  0.0  0.7 33997676 58648 ?      Sl   18:34   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService 
+griwa       6320  0.0  1.7 1461454112 143940 ?   Sl   18:34   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6325  0.0  1.5 1461453464 127776 ?   Sl   18:34   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6358  3.7  6.0 1471836828 488956 ?   Sl   18:34   0:40 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6375  0.2  1.7 1459750240 140224 ?   Sl   18:34   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6404  1.1  3.6 1461462664 296576 ?   Sl   18:34   0:12 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6427  0.0  1.0 34006512 83332 ?      Sl   18:34   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --la
+root        6484  0.0  0.0      0     0 ?        I<   18:34   0:00 [kworker/7:2H-kblockd]
+griwa       6550  0.0  1.9 1459741912 155808 ?   Sl   18:34   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6577  0.0  1.0 1459700224 81904 ?    Sl   18:34   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       6611  0.4  2.0 1459742296 165480 ?   Sl   18:34   0:04 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+griwa       7041  0.0  0.1 461316  9000 ?        Sl   18:35   0:00 /usr/libexec/gvfsd-network --spawner :1.24 /org/gtk/gvfs/exec_spaw/1
+griwa       7048  0.0  0.1 388620  9104 ?        Sl   18:35   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.24 /org/gtk/gvfs/exec_spaw/2
+griwa       7054  0.0  0.1 386964  8168 ?        Sl   18:35   0:00 /usr/libexec/gvfsd-wsdd --spawner :1.24 /org/gtk/gvfs/exec_spaw/3
+griwa       7059  0.0  0.3  42300 31928 ?        S    18:35   0:00 python3 /usr/bin/wsdd --no-host --discovery --listen /run/user/1000/gvfsd/wsdd
+root        7900  0.0  0.0      0     0 ?        I    18:37   0:00 [kworker/6:1-events]
+root       10474  0.0  0.0      0     0 ?        I    18:42   0:00 [kworker/1:0-ata_sff]
+root       10524  0.0  0.0      0     0 ?        I    18:42   0:00 [kworker/2:1-ata_sff]
+root       10662  0.0  0.0      0     0 ?        I    18:42   0:00 [kworker/4:0-ata_sff]
+root       11057  0.0  0.0      0     0 ?        I    18:43   0:00 [kworker/6:2-ata_sff]
+root       11686  0.0  0.0      0     0 ?        I    18:44   0:00 [kworker/7:0-ata_sff]
+root       12516  0.0  0.0      0     0 ?        I    18:46   0:00 [kworker/5:1-ata_sff]
+root       13070  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/0:1-ata_sff]
+root       13184  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/3:0-ata_sff]
+root       13281  0.0  0.0      0     0 ?        I    18:47   0:00 [kworker/2:2-ata_sff]
+root       13497  0.0  0.0      0     0 ?        I    18:48   0:00 [kworker/1:2-ata_sff]
+root       13514  0.0  0.0      0     0 ?        I    18:48   0:00 [kworker/4:1-ata_sff]
+root       13599  0.0  0.0      0     0 ?        I    18:48   0:00 [kworker/u32:0-kvfree_rcu_reclaim]
+root       13848  0.0  0.0      0     0 ?        I    18:48   0:00 [kworker/6:0-events_freezable_pwr_efficient]
+root       14455  0.4  0.0  10420  5680 ?        SN   18:49   0:00 top -b -d 1
+root       14802  0.0  0.0      0     0 ?        I    18:50   0:00 [kworker/7:2-ata_sff]
+griwa      15126  0.0  0.0 307832  6316 ?        Ssl  18:50   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+griwa      15135  0.0  0.3 347740 28304 ?        SNsl 18:50   0:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+root       15588  0.0  0.0      0     0 ?        I    18:51   0:00 [kworker/5:2]
+griwa      15765 11.5  3.6 1461453504 294768 ?   Sl   18:52   0:03 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=6216 --enable-crash-repo
+root       15996  0.0  0.0   5612  2272 pts/1    S+   18:52   0:00 script ps-log.txt
+root       15997  1.3  0.0  10308  6448 pts/3    Ss   18:52   0:00 zsh -i
+root       16031  0.0  0.0   9664  4184 pts/3    R+   18:52   0:00 ps aux
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hp[4mp[24m[4mp[24m[38;2;153;153;153ms aux[39m[4mp[39m[4ms[24m[24m[36mp[24m[36ms[39m[36mp[36ms[36m [39m[36mp[36ms[39m[39m [39m-[39m [39m [32m-[39m[38;2;153;153;153mu $[39m[38;2;153;153;153mUSER[39m[32m-[32mu[39m[38;2;153;153;153m [38;2;153;153;153m$[38;2;153;153;153mU[39m[32mu[32m [39m[38;2;153;153;153m$[38;2;153;153;153mU[32mu[39m[39m [39m$[39mu[39m [39m [39m s  [38;2;153;153;153mUSER[39m[39mU[39mS[39mE[39mR[?1l>[?2004l
+    PID TTY          TIME CMD
+      1 ?        00:00:01 systemd
+      2 ?        00:00:00 kthreadd
+      3 ?        00:00:00 pool_workqueue_release
+      4 ?        00:00:00 kworker/R-kvfree_rcu_reclaim
+      5 ?        00:00:00 kworker/R-rcu_gp
+      6 ?        00:00:00 kworker/R-sync_wq
+      7 ?        00:00:00 kworker/R-slub_flushwq
+      8 ?        00:00:00 kworker/R-netns
+      9 ?        00:00:00 kworker/0:0-mm_percpu_wq
+     11 ?        00:00:00 kworker/0:0H-events_highpri
+     13 ?        00:00:00 kworker/R-mm_percpu_wq
+     14 ?        00:00:00 rcu_tasks_kthread
+     15 ?        00:00:00 rcu_tasks_rude_kthread
+     16 ?        00:00:00 rcu_tasks_trace_kthread
+     17 ?        00:00:00 ksoftirqd/0
+     18 ?        00:00:01 rcu_preempt
+     19 ?        00:00:00 rcu_exp_par_gp_kthread_worker/0
+     20 ?        00:00:00 rcu_exp_gp_kthread_worker
+     21 ?        00:00:00 migration/0
+     22 ?        00:00:00 idle_inject/0
+     23 ?        00:00:00 cpuhp/0
+     24 ?        00:00:00 cpuhp/1
+     25 ?        00:00:00 idle_inject/1
+     26 ?        00:00:00 migration/1
+     27 ?        00:00:00 ksoftirqd/1
+     29 ?        00:00:00 kworker/1:0H-kblockd
+     30 ?        00:00:00 cpuhp/2
+     31 ?        00:00:00 idle_inject/2
+     32 ?        00:00:00 migration/2
+     33 ?        00:00:00 ksoftirqd/2
+     34 ?        00:00:00 kworker/2:0-events
+     35 ?        00:00:00 kworker/2:0H-events_highpri
+     36 ?        00:00:00 cpuhp/3
+     37 ?        00:00:00 idle_inject/3
+     38 ?        00:00:00 migration/3
+     39 ?        00:00:00 ksoftirqd/3
+     41 ?        00:00:00 kworker/3:0H-events_highpri
+     42 ?        00:00:00 cpuhp/4
+     43 ?        00:00:00 idle_inject/4
+     44 ?        00:00:00 migration/4
+     45 ?        00:00:00 ksoftirqd/4
+     47 ?        00:00:00 kworker/4:0H-events_highpri
+     48 ?        00:00:00 cpuhp/5
+     49 ?        00:00:00 idle_inject/5
+     50 ?        00:00:00 migration/5
+     51 ?        00:00:00 ksoftirqd/5
+     52 ?        00:00:00 kworker/5:0-events
+     53 ?        00:00:00 kworker/5:0H-events_highpri
+     54 ?        00:00:00 cpuhp/6
+     55 ?        00:00:00 idle_inject/6
+     56 ?        00:00:00 migration/6
+     57 ?        00:00:00 ksoftirqd/6
+     59 ?        00:00:00 kworker/6:0H-events_highpri
+     60 ?        00:00:00 cpuhp/7
+     61 ?        00:00:00 idle_inject/7
+     62 ?        00:00:00 migration/7
+     63 ?        00:00:00 ksoftirqd/7
+     70 ?        00:00:00 kworker/u32:4-events_unbound
+     72 ?        00:00:00 kworker/u32:6-events_unbound
+     73 ?        00:00:00 kworker/u32:7-events_unbound
+     74 ?        00:00:00 kdevtmpfs
+     75 ?        00:00:00 kworker/R-inet_frag_wq
+     76 ?        00:00:00 kauditd
+     77 ?        00:00:00 khungtaskd
+     78 ?        00:00:00 oom_reaper
+     79 ?        00:00:00 kworker/R-writeback
+     80 ?        00:00:00 kcompactd0
+     81 ?        00:00:00 ksmd
+     82 ?        00:00:00 khugepaged
+     83 ?        00:00:00 kworker/R-kintegrityd
+     84 ?        00:00:00 kworker/R-kblockd
+     85 ?        00:00:00 kworker/R-blkcg_punt_bio
+     86 ?        00:00:00 irq/9-acpi
+     88 ?        00:00:00 kworker/7:1-events
+     90 ?        00:00:00 kworker/R-tpm_dev_wq
+     91 ?        00:00:00 kworker/R-edac-poller
+     92 ?        00:00:00 kworker/R-devfreq_wq
+     93 ?        00:00:00 kworker/0:1H-kblockd
+     94 ?        00:00:00 kswapd0
+    102 ?        00:00:00 kworker/R-kthrotld
+    107 ?        00:00:00 kworker/R-acpi_thermal_pm
+    109 ?        00:00:00 kworker/1:1-events
+    110 ?        00:00:00 kworker/R-mld
+    111 ?        00:00:00 kworker/7:1H-kblockd
+    112 ?        00:00:00 kworker/R-ipv6_addrconf
+    117 ?        00:00:00 kworker/R-kstrp
+    121 ?        00:00:00 kworker/u33:0-ttm
+    183 ?        00:00:00 kworker/2:1H-kblockd
+    184 ?        00:00:00 kworker/3:1H-kblockd
+    216 ?        00:00:00 kworker/5:1H-kblockd
+    225 ?        00:00:00 kworker/1:1H-kblockd
+    226 ?        00:00:00 kworker/4:1H-kblockd
+    243 ?        00:00:00 kworker/6:1H-kblockd
+    249 ?        00:00:00 kworker/R-cryptd
+    284 ?        00:00:00 kworker/R-ata_sff
+    291 ?        00:00:00 scsi_eh_0
+    292 ?        00:00:00 kworker/R-scsi_tmf_0
+    293 ?        00:00:00 scsi_eh_1
+    295 ?        00:00:00 kworker/R-scsi_tmf_1
+    297 ?        00:00:00 scsi_eh_2
+    298 ?        00:00:00 kworker/R-scsi_tmf_2
+    309 ?        00:00:00 irq/18-vmwgfx
+    310 ?        00:00:00 kworker/R-ttm
+    312 ?        00:00:00 kworker/4:2-events
+    365 ?        00:00:00 jbd2/sda1-8
+    366 ?        00:00:00 kworker/R-ext4-rsv-conversion
+    427 ?        00:00:00 systemd-journal
+    470 ?        00:00:00 systemd-udevd
+    477 ?        00:00:00 psimon
+    543 ?        00:00:00 kworker/R-iprt-VBoxWQueue
+    585 ?        00:00:00 haveged
+    594 ?        00:00:00 accounts-daemon
+    599 ?        00:00:00 systemd-logind
+    778 ?        00:00:00 ModemManager
+    781 ?        00:00:00 kworker/R-rpciod
+    782 ?        00:00:00 kworker/R-xprtiod
+    791 ?        00:00:00 cron
+    807 ?        00:00:01 VBoxDRMClient
+    810 ?        00:00:00 VBoxService
+    872 ?        00:00:00 kworker/3:2-events
+    899 ?        00:00:00 NetworkManager
+    992 ?        00:00:00 lightdm
+    999 ?        00:00:00 sshd
+   1006 ?        00:00:00 kworker/u33:2-ttm
+   1008 tty7     00:00:47 Xorg
+   1009 tty1     00:00:00 agetty
+   1026 ?        00:00:00 psimon
+   1129 ?        00:00:00 lightdm
+   1444 ?        00:00:00 upowerd
+   1610 ?        00:00:00 udisksd
+   1741 ?        00:00:00 fusermount3
+   2101 pts/0    00:00:00 sudo
+   2121 pts/1    00:00:00 sudo
+   2122 pts/1    00:00:00 su
+   2124 pts/1    00:00:01 zsh
+   6484 ?        00:00:00 kworker/7:2H-kblockd
+   7900 ?        00:00:00 kworker/6:1-events_freezable_pwr_efficient
+  10474 ?        00:00:00 kworker/1:0-ata_sff
+  10524 ?        00:00:00 kworker/2:1-ata_sff
+  10662 ?        00:00:00 kworker/4:0-ata_sff
+  11057 ?        00:00:00 kworker/6:2-ata_sff
+  11686 ?        00:00:00 kworker/7:0-ata_sff
+  12516 ?        00:00:00 kworker/5:1-ata_sff
+  13070 ?        00:00:00 kworker/0:1-ata_sff
+  13184 ?        00:00:00 kworker/3:0-ata_sff
+  13281 ?        00:00:00 kworker/2:2-ata_sff
+  13497 ?        00:00:00 kworker/1:2-ata_sff
+  13514 ?        00:00:00 kworker/4:1-ata_sff
+  13599 ?        00:00:00 kworker/u32:0-kvfree_rcu_reclaim
+  13848 ?        00:00:00 kworker/6:0-ata_sff
+  14455 ?        00:00:00 top
+  14802 ?        00:00:00 kworker/7:2-ata_sff
+  15588 ?        00:00:00 kworker/5:2
+  15996 pts/1    00:00:00 script
+  15997 pts/3    00:00:00 zsh
+  16033 ?        00:00:00 kworker/0:2-ata_sff
+  16090 pts/3    00:00:00 ps
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004ht[4mt[24m[4mt[24m[38;2;153;153;153mop -b -d 1 > /dev/null &[39m[24D[4mt[39m[4mo[24m[4mt[4mo[39m[4mp[24m[24m[36mt[24m[36mo[24m[36mp[39m[36mp[36m [39m[36mp[39m[39m [39m%[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D^ ^  [38;2;153;153;153m-b -d 1 > /dev/null &[39m[21D[39m&[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[1m[34m&[0m[39m[?1l>[?2004l
+[1] 16134
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004h[?1l>
+[1]  + suspended (signal)  top
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [Kj[4mj[24m[4mj[24m[38;2;153;153;153mournalctl -u ssh[39m[16D[4mj[39m[4mo[24m[4mj[4mo[39m[4mb[24m[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[4mb[4ms[24m[24m[36mj[24m[36mo[24m[36mb[24m[36ms[39m[36ms[36m [39m[36ms[39m[39m -[32m-[39m[32m-[32m1[39m[?1l>[?2004l
+jobs: job not found: -1
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hk[4mk[24m[4mk[24m[38;2;153;153;153mill 1146[39m[8D[4mk[39m[4mi[24m[4mk[4mi[39m[4ml[24m[4ml[39m[4ml[24m[24m[36mk[24m[36mi[24m[36ml[24m[36ml[39m[36ml[36m [39m[36ml[39m[39m [39m-[39m [39m [39m [32m-[39m[32m-[32m9[39m[32m9[32m [39m[32m9[39m[39m ^ % % [32m9[32m%[39m[32m%[32m1[39m[?1l>[?2004l
+kill: invalid signal number: -9%1
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004hkill -9%1[9D[36mk[36mi[36ml[36ml[39m [32m-[32m9[32m%[32m1[39m[32m%[39m[39m [38;2;153;153;153m1[39m[32m9[39m[39m [39m [38;2;153;153;153m%[39m[38;2;153;153;153m1[39m[32m9[32m [39m[39m [32m9[39m[39m %1[?1l>[?2004l
+                                                                                                                                                            ]0;root@griwa: /home/griwa/git/CodeBy-DevOps
+[1]  + killed     top
+[0m[27m[24m[J[34m┌──([1m[34m[31mroot㉿griwa[0m[31m[34m)-[[1m[34m[39m/home/griwa/git/CodeBy-DevOps[0m[34m]
+└─[1m[34m[31m#[0m[31m[39m [K[?1h=[?2004he[4me[24m[4me[24m[38;2;153;153;153mxit[39m[4me[39m[4mx[24m[24m[36me[24m[36mx[39m[36me[36mx[36mi[39m[39m[4me[39m[4mx[39m[4mi[24m[4mi[39m[4mt[24m[24m[36me[24m[36mx[24m[36mi[24m[36mt[39m[?1l>[?2004l
+
+Script done on 2025-06-29 18:53:09+03:00 [COMMAND_EXIT_CODE="0"]
